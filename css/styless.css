@@ -1,0 +1,125 @@
+/* Sushil Thapa
+C0919991
+Term Project */
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for image */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for header content  */
+header{
+    text-align: center;
+    font-size: 3em;
+    color: #f3af62;
+}
+
+header h1 {
+    font-style: italic;}
+
+/* Style rule for navigation area */
+nav {
+    background-color: #610c0c;
+	margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 2em;
+}
+
+nav li a {
+    display: block;
+    color: #DAC0A3;
+    text-align: center;
+    padding: 0.2em 0.2em;
+    text-decoration: none;
+}
+
+/* Style rules for footer content  */
+footer {
+	text-align: center;
+	font-size: 1.50em;
+	clear: left;
+	background-color: #610c0c;
+	}
+	
+footer a {
+	color: #DAC0A3;
+	text-decoration: none;
+	}
+
+footer p {
+	color: #DAC0A3;
+	text-decoration: none;
+	}
+
+
+/* Style rules for main content */
+
+ main {
+    padding: 2%;
+    background-color: #F8F0E5;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+    }
+
+/* style rule for logo   */
+#logo{
+position:absolute;
+top:123px;
+left:24px;
+width: 105px;
+height: 63px;
+overflow:hidden;
+	}
+
+.h3{
+	text-align: center;
+}
+
+/* style rule for special in weekly and product of the week */
+#clean, #oralb, #pclean {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#info {
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+}
+
+/*Style rules for page*/
+.welcome, .product {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 350px;
+    padding-top: 30px;
+  }
+
+/* rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
