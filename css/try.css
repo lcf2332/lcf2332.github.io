@@ -1,7 +1,3 @@
-/* Sushil Thapa
-C0919991
-Term Project */
-
 /*
 Author: Sushil Thapa
 Date: Nov 22, 2023
@@ -100,38 +96,6 @@ main {
 }
 
 
-.h3{
-	text-align: center;
-}
-
-/* style rule for special in weekly and product of the week */
-#clean, #oralb, #pclean {
-    width: 29%;
-    float: left;
-    margin: 0 2%;
-}
-
-#info {
-    clear: left;
-    padding: 1% 2%;
-}
-
-/*Style rules for page*/
-.welcome, .product {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 350px;
-    padding-top: 30px;
-  }
-
-/* rounded border */
-hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
-  }
-
-
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -195,6 +159,7 @@ main ul {
 	nav li a:hover {
 		color: #a77171;
 		background-color: #5c0404;
+        padding: 20px;
 	}
 	
 	/* Desktop Viewport: Style Rules for main content */
@@ -204,7 +169,7 @@ main ul {
 	
 
 
-/* Media Query for Large Desktop Viewports */
+	/* Media Query for Large Desktop Viewports */
 	@media screen and (min-width: 1921px) {
 		
 		#container {
