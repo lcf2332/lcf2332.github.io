@@ -140,6 +140,13 @@ header {
 	padding-bottom: 2%;
 }
 
+.mobile-nav{
+	display: none;
+}
+
+.tab-desk {
+	display: inline;
+}
 /* Tablet Viewport: Style rules for nav area */
 nav li {
 	border-top: none;
@@ -222,4 +229,39 @@ main ul {
 		background-color: #fff;
 		color: #000;
 	}
+}
+/* 
+style for video and audio */
+.centerrr{
+	margin: 0 auto;
+	align-items: center;
+  }
+
+
+
+/*Style rules for mobile viewport*/
+.mobile-nav a {
+    color: #fff;
+    text-align: center; 
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-icon div {
+    height: 50px;
+    width: 50px;
+    background-color: #373684;
+}
+
+.tab-desk, #menu-links {
+    display: none;
 }
