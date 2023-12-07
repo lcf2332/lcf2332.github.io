@@ -1,6 +1,6 @@
 // Author: Sushil Thapa
-// Date: Nov 29, 2023
-// File Name: styles.css
+// C0919991
+// File Name: script.js
 
 // Hamburger menu function
 function hamburger() {

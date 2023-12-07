@@ -1,64 +1,77 @@
+/* Sushil Thapa
+c0919991  */
+
 /* Style rules for mobile viewport */
 aside {
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
-	color: #245831;
-	text-shadow: 3px 3px 10px #9F5C2C;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #0000ff;
+    text-shadow: 3px 3px 10px #a5a5db;
 }
 
 .figure_ph figure {
-	position: relative;
-	max-width: 275px;
-	margin: 2% auto;
-	border: 8px solid #373684;
-}
-/* 4px solid #9F5C2C */
-figcaption {
-	position: absolute;
-	bottom: 0;
-	background: rgba(55, 54, 132, 0.7);
-	color: #ffffff;
-	width: 100%;
-	padding: 5% 0;
-	text-align: center;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
+    position: relative;
+    max-width: 275px;
+    max-height:max-content;
+    margin: 2% auto;
+    border: 4px solid #9F5C2C;
 }
 
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: F8F0E5;
+    color: #000000;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 550px),
+print {
+
+    .figure_ph {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    aside {
+        grid-column: 1 / span 2;
+    }
+
+}
 .shadow {
 	font-size: 2.35em;
 	color: #245831;
 	font-weight: bold;
-	text-shadow: 5px 5px 8px #9F5C2C;
+	text-shadow: 5px 5px 8px #d67575;
 	text-align: center;
 }
-/*Media Query for Desktop Viewport*/
-@media screen and (min-width: 769px), print {
-	.grid {
+
+/*Media Query for Desktop Viewport.*/
+
+@media screen and (min-width:769px),
+print {
+
+    .figure_ph {
         display: grid;
-		grid-template-columns: repeat(4, 1fr);
-	}
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 20px;
 
-	figcaption {
-		font-size: 1em;
-	}
+    }
 
-	aside {
-		grid-column: 1 / span 4;
-	}
-}
-
-/* Media Query for Tablet Viewport*/
-@media screen and (min-width: 550px), print {
-    .grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 20px;
-	}
+    figcaption {
+        font-size: 1em;
+    }
 
     aside {
-		grid-column: 1 / span 2;
-	}
+        grid-column: 1 / span 4;
+    }
+
 }
