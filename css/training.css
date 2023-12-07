@@ -15,8 +15,8 @@
       font-weight: bold;
     }
 
-    .even-row {
-      background-color: #f9f9f9;
+    tr:nth-child(even) {
+      background-color: rgb(255, 255, 255);
     }
 
     table caption {
@@ -38,3 +38,8 @@
       text-shadow: 5px 5px 8px #d67575;
       text-align: center;
     }
+
+.middle{
+  padding-left: 5%;
+  padding-right: 5%;
+}

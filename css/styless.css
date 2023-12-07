@@ -17,7 +17,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 
 /* Style rules for body and images */
 body {
-	background-color: #F8F0E5;
+	background-color: #8CDAC4;
 }
 
 img, video {
@@ -35,8 +35,8 @@ img, video {
 /* style rules for header */
 header {
 	top: 0;
-	background-color: #F8F0E5;
-	height: 190px;
+	background-color: #8CDAC4;
+	height: 140px;
 }
 
 header img{
@@ -72,7 +72,7 @@ nav ul {
 }
 
 nav li {
-	font-size: 1.75em;
+	font-size: 20px;
 	font-family: 'Francois One', sans-serif;
 	border-top: 1px solid #350202;	
 }
@@ -93,16 +93,12 @@ nav li a {
 
 /* style rules for main content */
 main {
-	background-color: #fff;
-	padding: 2%;
+	background-color: #D6FAF0;
 	font-size: 1.15em;
 	font-family: 'Roboto Slab', serif;
 }
 
 
-.h3{
-	text-align: center;
-}
 
 /* style rule for special in weekly and product of the week */
 #clean, #oralb, #pclean {
@@ -124,6 +120,13 @@ main {
     padding-left: 350px;
     padding-top: 30px;
   }
+
+
+.special{
+	display: grid;
+    align-items: center;
+
+}
 
 /* rounded border */
 hr.rounded {
@@ -200,8 +203,10 @@ main ul {
 	}
 	
 	nav li a:hover {
-		color: #a77171;
-		background-color: #5c0404;
+		color: #f0e7e7;
+		background-color: #9F5C2C;
+		border-radius: 25px;
+
 	}
 	
 	/* Desktop Viewport: Style Rules for main content */
@@ -231,13 +236,6 @@ main ul {
 	}
 }
 /* 
-style for video and audio */
-.centerrr{
-	margin: 0 auto;
-	align-items: center;
-  }
-
-
 
 /*Style rules for mobile viewport*/
 .mobile-nav a {
@@ -264,4 +262,106 @@ style for video and audio */
 
 .tab-desk, #menu-links {
     display: none;
+}
+
+
+
+.audio-section,
+.video-section {
+    margin: 0;
+}
+
+audio,
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    /* margin: 0; */
+}
+
+
+/* style for homepage */
+.h3{
+	text-align: left;
+	margin-right: 10%;
+}
+
+
+.button {
+	background-color: #00A692; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 25px;
+	cursor: pointer;
+  }
+
+  .button1 {
+	background-color: #9F5C2C;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 25px;
+	cursor: pointer;
+  }
+
+
+  .button-container {
+    margin-left: 2%;
+}
+
+.romeo{
+	margin-left: 8%;
+}
+
+
+.shadow {
+	font-size: 1.35em;
+	color: #245831;
+	font-weight: bold;
+	text-shadow: 5px 5px 8px #9F5C2C;
+	text-align: center;
+}
+
+#pclean{
+	margin: 2%;
+	background-color: #c2cac8;
+	padding: 20px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: justify;
+}
+
+#clean{
+	margin: 2%;
+	background-color: #81f5d4;
+	padding: 20px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: justify;
+}
+
+#oralb{
+	margin: 2%;
+	background-color: #007755;
+	padding: 20px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: justify;
 }

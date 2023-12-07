@@ -16,8 +16,9 @@ aside {
 .figure_ph figure {
     position: relative;
     max-width: 275px;
+    max-height:max-content;
     margin: 2% auto;
-    border: 8px solid #030407;
+    border: 4px solid #9F5C2C;
 }
 
 figcaption {
